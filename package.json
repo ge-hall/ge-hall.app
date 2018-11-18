@@ -8,7 +8,7 @@
   "keywords": [],
   "scripts": {
     "start": "node server.js",
-    "build": "webpack-dev-server --config ./webpack.config.js --mode development",
+    "build": "webpack --config ./webpack.config.js --mode development",
     "test": "echo \"No test specified\" && exit 0"
   },
   "devDependencies": {
